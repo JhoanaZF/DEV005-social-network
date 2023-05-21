@@ -1,8 +1,7 @@
 // Se importan las siguientes funciones y objetos de Firebase.
 import { signOut } from "firebase/auth";
-import {
-    addPost, auth, deletePost, editPost, paintPostsRealTime, aboutLikes, aboutDislikes,
-} from "../firebase/configuration.js";
+import { addPost, auth, deletePost, editPost, paintPostsRealTime, aboutLikes, aboutDislikes } from "../firebase/configuration.js";
+import { checkEdit, grayLike, iconDelete, iconEdit, redLike } from "../images/img.js";
 
 // Se define una función llamada loginLogic que toma un elemento container como argumento.
 const homeLogic = (container) => {
@@ -55,7 +54,7 @@ const homeLogic = (container) => {
             const likesBtn = document.createElement("IMG");
             const isLike = doc.data().likes.some((item) => item === auth.currentUser.uid);
             likesBtn.classList.add("likeBtn");
-            likesBtn.src = isLike ? "./img/redLike.svg" : "./img/grayLike.svg";
+            likesBtn.src = isLike ? redLike : grayLike;
             likesBtn.addEventListener("click", async () => {
                 if (isLike) {
                     await aboutDislikes(doc.id, auth.currentUser.uid);
@@ -73,7 +72,7 @@ const homeLogic = (container) => {
             // Boton eliminar
             const deleteBtn = document.createElement("IMG");
             deleteBtn.classList.add("deleteBtn");
-            deleteBtn.src = "./img/iconDelete.svg";
+            deleteBtn.src = iconDelete;
             deleteBtn.addEventListener("click", () => {
                 deletePost(doc.id);
             });
@@ -81,7 +80,7 @@ const homeLogic = (container) => {
             const editBtn = document.createElement("IMG");
             let IsActualizar = false;
             editBtn.classList.add("editBtn");
-            editBtn.src = "./img/iconEdit.svg";
+            editBtn.src = iconEdit;
             // Nombre de usuario en las publicaciones realizadas
             const nameUserPublication = document.createElement("P");
             nameUserPublication.classList.add("nameUserPublication");
@@ -114,12 +113,12 @@ const homeLogic = (container) => {
                     const newComment = editField.value;
                     await editPost(doc.id, { comment: newComment });
                     IsActualizar = false;
-                    editBtn.src = "./img/iconEdit.svg";
+                    editBtn.src = iconEdit;
                     divContentComment.innerHTML = "";
                     divContentComment.appendChild(postText);
                 } else {
                     IsActualizar = true;
-                    editBtn.src = "./img/checkEdit.svg";
+                    editBtn.src = checkEdit;
                     divContentComment.innerHTML = "";
                     divContentComment.appendChild(editField);
                 }

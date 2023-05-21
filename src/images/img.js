@@ -1,0 +1,12 @@
+export const checkEdit = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FcheckEdit.svg?alt=media&token=af72797b-b84c-4cff-913d-bd4522db541e";
+export const errorOutline = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FerrorOutline.svg?alt=media&token=29f454c4-2df5-4277-b673-2fc9c688744a";
+export const favicon = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2Ffavicon.svg?alt=media&token=c4167bf0-d5ca-4660-a587-36413a26dd9e";
+export const google = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2Fgoogle.svg?alt=media&token=0e916d3a-53b3-4461-8aef-f95b0c440091";
+export const grayLike = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FgrayLike.svg?alt=media&token=4dec3ef1-3d1b-4c97-8888-4326933e3021";
+export const iconDelete = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FiconDelete.svg?alt=media&token=faa6ec51-e105-4286-ba16-5ec88b699be6";
+export const iconEdit = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FiconEdit.svg?alt=media&token=7880ac8e-5604-4a94-96ea-c4ab7cc8c695";
+export const iconSignOut = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FiconSignOut.svg?alt=media&token=e702f267-6e86-4e3c-bf62-4cef6186f152";
+export const logo = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2Flogo.svg?alt=media&token=e16d6629-e82b-49b9-8c70-7c9a2744d06d";
+export const logoHome = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FlogoHome.svg?alt=media&token=98e05bae-680f-463d-9f3c-1f016af440e6";
+export const redLike = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2FredLike.svg?alt=media&token=6cdee81e-6bf0-4ba7-876c-d2b184e330d7";
+export const sports = "https://firebasestorage.googleapis.com/v0/b/social-network-424d1.appspot.com/o/img%2Fsports.svg?alt=media&token=104acd0c-ab09-4e10-b3d8-71302c9bf102";

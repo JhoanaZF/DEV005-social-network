@@ -1,3 +1,4 @@
+import { logo } from "../images/img";
 import { registerLogic } from "../lib/registerLogic";
 
 // Define una función "register" que toma un argumento "findRouteAndNavigate"
@@ -10,7 +11,7 @@ const register = (findRouteAndNavigate) => {
     const viewRegister = ` 
     <article class="three">
     <figure class="logoLR">
-        <img src="./img/logo.svg" alt="logo SportX" class="logoR"/>
+        <img src='${logo}' alt="logo SportX" class="logoR"/>
     </figure>
     <div>
         <div class="fields">

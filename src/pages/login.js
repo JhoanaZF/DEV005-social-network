@@ -1,3 +1,4 @@
+import { google, logo } from "../images/img";
 import { loginLogic } from "../lib/loginLogic";
 
 // Declara una constante llamada "login" que es igual a una función flecha con un parámetro llamado "findRouteAndNavigate"
@@ -10,7 +11,7 @@ const login = (findRouteAndNavigate) => {
     const viewLogin = `
     <div class="two">
         <figure class="logoLR">
-            <img src="./img/logo.svg" alt="logo SportX" class="logoL"/>
+            <img src='${logo}' alt="logo SportX" class="logoL"/>
         </figure>
         <article>
             <div class="fields">
@@ -30,7 +31,7 @@ const login = (findRouteAndNavigate) => {
             </div>
             <div class="loginGmailBtn">
                 <button id="loginGmailBtn" class="lGmailBtn">
-                    <img src="./img/google.svg" value="iniciarGoogle" alt="google" class="imgGoogle" />
+                    <img src='${google}' value="iniciarGoogle" alt="google" class="imgGoogle" />
                     Acceder con Google
                 </button>
             </div>

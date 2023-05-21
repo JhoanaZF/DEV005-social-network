@@ -1,3 +1,4 @@
+import { iconSignOut, logoHome } from "../images/img.js";
 import { homeLogic } from "../lib/index.js";
 // Declara una constante llamada "home" que es igual a una función flecha sin parámetros
 const home = () => {
@@ -13,11 +14,11 @@ const home = () => {
             <div class="signOff">
                 <button type="submit" id="signOffBtn">
                     Cerrar Sesión
-                    <img src="../img/iconSignOut.svg" id="iconSignOut" />
+                    <img src='${iconSignOut}' id="iconSignOut" />
                 </button>
             </div>
             <div class="logoHome">
-                <img id="homeLogo" src="./img/logoHome.svg" alt="logo SportX" />
+                <img id="homeLogo" src='${logoHome}' alt="logo SportX" />
             </div>
         </div>
         <div class="containerHome">

@@ -1,3 +1,5 @@
+import { errorOutline } from "../images/img";
+
 // Declara una constante llamada "error" que es igual a una función flecha sin parámetros
 const error = () => {
     // Crea un elemento HTML <section> y lo guarda en una constante llamada "container"
@@ -10,7 +12,7 @@ const error = () => {
     <div class="contentError">
         <h4 class="errorText">Lo sentimos, existe un error. Vuelva a intentarlo.</h4>
         <figure class="figError">
-        <img src="./img/errorOutline.svg" alt="error" class="imgError" />
+        <img src= '${errorOutline}' alt="error" class="imgError" />
         </figure> 
     </div>
     </article>

@@ -1,3 +1,5 @@
+import { logo, sports } from "../images/img";
+
 // Define una función llamada 'welcome' que recibe un argumento llamado 'findRouteAndNavigate'
 const welcome = (findRouteAndNavigate) => {
     // Crea un elemento 'section' en el DOM y lo guarda en la variable 'container'
@@ -8,10 +10,10 @@ const welcome = (findRouteAndNavigate) => {
     const viewWelcome = `
     <div class="one">
     <figure class="logoLR">
-        <img src="./img/logo.svg" alt="logo SportX" class="logo" />
+        <img src='${logo}' alt="logo SportX" class="logo" />
     </figure>
     <figure class="homeImage">
-        <img src="./img/sports.svg" alt="logo deporte" class="image" />
+        <img src='${sports}' alt="logo deporte" class="image" />
     </figure>
     <div class="buttonsLR">
         <article class="textLR">
