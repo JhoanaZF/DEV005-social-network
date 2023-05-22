@@ -1,7 +1,11 @@
 // Se importan las siguientes funciones y objetos de Firebase.
 import { signOut } from "firebase/auth";
-import { addPost, auth, deletePost, editPost, paintPostsRealTime, aboutLikes, aboutDislikes } from "../firebase/configuration.js";
-import { checkEdit, grayLike, iconDelete, iconEdit, redLike } from "../images/img.js";
+import {
+    addPost, auth, deletePost, editPost, paintPostsRealTime, aboutLikes, aboutDislikes,
+} from "../firebase/configuration.js";
+import {
+    checkEdit, grayLike, iconDelete, iconEdit, redLike,
+} from "../images/img.js";
 
 // Se define una función llamada loginLogic que toma un elemento container como argumento.
 const homeLogic = (container) => {
