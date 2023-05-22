@@ -1,0 +1,469 @@
+/* ESTILO PARA EL HTML */
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/* ESTILO PARA LA VISTA WELCOME */
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+.contentW {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(360deg, #4ea8de 1.37%, rgba(104, 213, 228, 0.995555) 48.76%, rgba(128, 204, 234, 0.991472) 99.99%, rgba(78, 168, 222, 0) 100%);
+}
+.contentLR {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+.logoLR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.one {
+    width: 500px;
+}
+.homeImage {
+    margin: 16px 0 40px 80px;
+}
+.buttonsLR {
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+.textLR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.line {
+    margin: 0 20px 20px;
+}
+
+/* ESTILO PARA LA VISTA LOGIN */
+
+.two {
+    width: 500px;
+}
+.inputLR {
+    border-style: none;
+    border-bottom: 2px solid #e05d6f;
+    background: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding: 0px 0px 3px;
+    margin-top: 5px;
+}
+.messageErrorMailLogin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+}
+.messageErrorPasswordLogin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+/* ESTILO PARA BOTÓN DE LOGIN */
+
+.loginBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.lBtn {
+    width: 307px;
+    height: 62px;
+    background: #4ea8de;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+/* ESTILO PARA BOTON DE GOOGLE */
+
+.labelLR {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+.loginGmailBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 16px 20px 16px;
+}
+.lGmailBtn {
+    width: 307px;
+    height: 62px;
+    background: #e8e8e8;
+    border: solid 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0.5px rgba(98, 98, 98, 0.2);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6d6d6d;
+    padding: 8px 8px 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 16px 20px 16px;
+    cursor: pointer;
+}
+.imgGoogle {
+    padding: 8px 20px 8px 8px;
+}
+.returnRegistration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span.spanText {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+a.aText {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4ea8de;
+}
+
+/* ESTILO PARA LA VISTA REGISTRARSE */
+
+.three {
+    width: 500px;
+}
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageErrorUserRegister {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+}
+.messageErrorMailRegister {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+}
+.messageErrorPasswordRegister {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+/* ESTILO PARA BOTÓN DE REGISTRARSE */
+
+.registerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rBtn {
+    width: 307px;
+    height: 62px;
+    background: #4ea8de;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.returnHomeSession {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spanText {
+    margin: 0 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+}
+.aText {
+    color: #4ea8de;
+    cursor: pointer;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* ESTILO PARA LA VISTA HOME */
+
+.four {
+    width: 500px;
+    height: 100%;
+}
+.partOne {
+    margin: 80px 10px 0px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+#homeLogo {
+    width: 130px;
+    height: auto;
+    margin-right: 133px;
+}
+#signOffBtn {
+    font-size: 15px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#iconSignOut {
+    width: 20px;
+    height: auto;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.userNameHome {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background: #4ea8de;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    margin: 30px 0px;
+    align-self: flex-end;
+}
+.containerHome {
+    display: flex;
+    flex-direction: column;
+}
+.postText {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.userName {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background: #505a6054;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* PUBLICACIONES IMPRESAS */
+
+.myPublication {
+    position: relative;
+    width: 100%;
+}
+.divContentComment {
+    border-radius: 8px;
+    width: 100%;
+}
+.commentField {
+    font-family: "Roboto", sans-serif;
+    border: solid 2px #4ea8de;
+    border-radius: 8px;
+    width: 500px;
+    height: 110px;
+    padding: 10px;
+}
+.publishBtn {
+    position: absolute;
+    bottom: 14px;
+    right: 10px;
+    z-index: 99;
+    width: 80px;
+    height: 28px;
+    background: #4ea8de;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin: 8px 0 0 268px;
+}
+.publicationContainer {
+    display: flex;
+    width: 100%;
+    border: 1px solid #4ea8de;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.publications {
+    width: 100%;
+}
+.fieldPublications {
+    width: 100%;
+}
+.likeBtn {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+.likesParagraph {
+    color: #a3a6b1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.editBtn {
+    height: auto;
+    cursor: pointer;
+}
+.deleteBtn {
+    cursor: pointer;
+}
+.editField {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.divContentFirst {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.iconActions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nameUserPublication {
+    font-weight: 600;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+.divContentLast {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+/* ESTILO PARA LA VISTA ERROR */
+
+.five {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentError {
+    width: 400px;
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.errorText {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.figError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgError {
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width: 620px) {
+    .logo {
+        width: 168px;
+    }
+    .logoL {
+        width: 230px;
+    }
+    .logoR {
+        width: 248px;
+    }
+    .homeImage {
+        margin: 16px 0 40px 15px;
+    }
+    .line {
+        margin: 0 14px 20px;
+    }
+    .fields {
+        margin: 0 20px;
+    }
+    .commentField {
+        width: 330px;
+    }
+    .containerHome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        margin: 0 20px 0 20px;
+    }
+    #homeLogo {
+        width: 90px;
+        height: auto;
+        margin-right: 10px;
+    }
+    #signOffBtn {
+        font-size: 15px;
+    }
+    .publicationContainer {
+        margin-bottom: 15px;
+    }
+    .partOne {
+        width: 330px;
+        margin: 80px 10px 0px 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
