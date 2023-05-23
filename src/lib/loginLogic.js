@@ -52,10 +52,12 @@ const loginLogic = (container) => {
     loginBtn.addEventListener("click", async () => {
         try {
             const { errors } = validateFields();
+            // eslint-disable-next-line no-console
             console.log({ errors });
             if (errors) return;
 
             const user = await signIn(mailUserLogin.value, passwordUserLogin.value);
+            // eslint-disable-next-line no-console
             console.log({ user });
 
             if (user.email) {
@@ -65,6 +67,7 @@ const loginLogic = (container) => {
                 window.location.href = "/";
             }
         } catch (error) {
+            // eslint-disable-next-line no-console
             console.log(error);
             showError("El correo o la contraseña es incorrecta", "messageErrorPasswordLogin");
         }
